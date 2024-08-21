@@ -1,0 +1,122 @@
+body, h1, p, select, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, black,lightblue ); /* Gradient background for the page */
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, lightgreen, pink); /* Subtle gradient for the container background */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dropdown and inputs styling */
+select, input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    width: 100%;
+    max-width: 150px;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Subject styling */
+.subject {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.subject label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subject select, .subject input {
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background: linear-gradient(135deg, blue, green); /* Gradient for buttons */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px 10px 0;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #007bff, #0056b3 ); /* Darker gradient on hover */
+}
+
+/* Result styling */
+#result, #result1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#result h2, #result1 h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#result p, #result1 p {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+#result1 p {
+    font-size: 36px;
+}
+
+#result1 {
+    margin-top: 40px;
+}
+
+/* Center alignment */
+#result1, #result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
